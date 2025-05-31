@@ -18,7 +18,7 @@ const HomeDashboard = ({ navigation }) => {
   };
 
   const handleSignUpPress = () => {
-    navigation.navigate('SignUp'); 
+    navigation.navigate('Register'); 
   };
 
   const handleAboutPress = () => {
@@ -37,7 +37,7 @@ const HomeDashboard = ({ navigation }) => {
     <View style={styles.container}>
       <StatusBar barStyle="light-content" backgroundColor="#1a1a2e" />
       
-      {/* Header with Login Button */}
+ 
       <View style={styles.header}>
         <Text style={styles.logo}>Tralalero</Text>
         <View style={styles.headerButtons}>
@@ -73,7 +73,7 @@ const HomeDashboard = ({ navigation }) => {
           <View style={styles.decorativeCircle3} />
         </View>
 
-        {/* Features Section */}
+   
         <View style={styles.featuresSection}>
           <Text style={styles.sectionTitle}>Why Choose Us?</Text>
           
